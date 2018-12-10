@@ -1,1 +1,1 @@
-# javascript-logic-exercise-making-an-object-from-
+# javascript-logic-exercise-making-some-shapes-from-stars
