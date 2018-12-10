@@ -1,0 +1,22 @@
+<html>
+    <script>
+        
+        var nilai_prompt = prompt("Berapa ukuran yang anda inginkan?"); 
+        var tinggi = parseInt(nilai_prompt);
+
+        let z = '';
+            for (var i=1; i<=tinggi; i+=2){
+    
+                for( var j=i; j>0; j--){
+                    z += '&nbsp';
+    }
+                for(var j=i; j<=tinggi; j++){
+                    z += '*';
+    }
+                    z += '<br/>';
+    }
+
+    document.write(z);
+
+    </script>
+</html>

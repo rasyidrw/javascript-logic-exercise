@@ -1,0 +1,32 @@
+<html>
+        <script>
+
+            var ukuran = parseInt(prompt("Berapa ukuran yang anda inginkan?")); 
+
+                let z = '';
+                    for (var i=0; i<=ukuran; i+=2){
+    
+                        for(var j=i; j<=ukuran; j++){
+                            z += '&nbsp';
+    }
+                        for(var j=i; j>=0; j--){
+                            z += '*';
+    }
+                            z += '<br/>';
+    }
+
+                    for (var k=0; k<=ukuran; k+=2){
+    
+                        for( var l=k; l>=0; l--){
+                            z += '&nbsp';
+    }
+                        for(var l=k; l<=ukuran; l++){
+                            z += '*';
+    }
+                            z += '<br/>';
+    }
+
+        document.write(z)
+
+        </script>
+</html>
